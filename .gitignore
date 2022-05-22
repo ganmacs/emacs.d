@@ -1,0 +1,17 @@
+log/*
+.cask/*
+eshell/lastdir
+eshell/history
+recentf
+url/*
+/.hl-save
+/ensime
+*.elc
+
+straight/repos
+straight/build
+straight/build-cache.el
+network-security.data
+projects
+transient/
+.lsp-session-v1
