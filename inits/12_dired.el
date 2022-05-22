@@ -17,7 +17,7 @@
         ("r" . wdired-change-to-wdired-mode)
         ("C-g" . quit-window)
         ("SPC" . dired/do-quicklook)
-        ("M-g" . helm-git-grep)
+        ("M-g" . my-consult-git-grep)
         ("C-M-g" . magit-status))
 
   :custom

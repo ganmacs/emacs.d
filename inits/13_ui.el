@@ -9,9 +9,7 @@
   :config
   (global-yascroll-bar-mode 1))
 
-
 (use-package posframe)
-
 
 ;; pos-tip doesn't work with my font (Menlo)
 ;;
@@ -21,7 +19,6 @@
 ;;   (pos-tip-foreground-color "#ddd"))
 
 (use-package powerline)
-
 
 (defface powerline-active3
   '((t (:background "#462743" :inherit mode-line-inactive :foreground "#eee")))

@@ -66,8 +66,8 @@
   :custom
   (jumplist-ex-mode t)
   (jumplist-hook-commands
-   '(dired-jump helm-for-files isearch-forward end-of-buffer beginning-of-buffer
-                find-file helm-gtags-find-tag helm-imenu)))
+   '(dired-jump my-consult-git-grep consult-swoop consult-buffer isearch-forward end-of-buffer beginning-of-buffer
+                find-file helm-imenu)))
 
 (use-package smartparens
   :init

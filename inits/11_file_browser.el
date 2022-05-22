@@ -6,6 +6,14 @@
   :config
   (vertico-mode))
 
+(use-package vertico-repeat
+  :straight nil
+  :after vertico
+  :load-path "straight/repos/vertico/extensions/"
+  :bind
+  ("C-M-/" . vertico-repeat)
+  :hook (minibuffer-setup . vertico-repeat-save))
+
 (use-package orderless
   :custom
   (completion-styles '(orderless basic))
@@ -16,10 +24,13 @@
 
   :bind
   ("C-;" . consult-buffer)
-  ("M-g M-g" . my-consult-git-grep)
   ("M-o" . consult-swoop)
   ("M-C-;" . consult-ghq-open)
+  ("M-g M-g" . my-consult-git-grep)
   ("s-l" . consult-project-buffer)
+  (:map vertico-map
+        ("C-v" . vertico-scroll-up)
+        ("M-v" . vertico-scroll-down))
 
   :custom
   (vertico-count 20)
@@ -31,7 +42,7 @@
   (consult-customize
    consult-theme
    :preview-key '(:debounce 0.2 any)
-   consult-buffer consult-project-buffer my-consult-git-grep
+   consult-buffer consult-project-buffer consult-git-grep
    consult-ripgrep consult-grep
    consult-bookmark consult-recent-file consult-xref
 
@@ -85,6 +96,6 @@
 
 (defun my-consult-git-grep ()
   (interactive)
-  (consult--grep "git-grep" #'consult--git-grep-builder nil (get-input-symbol)))
+  (consult-git-grep nil (get-input-symbol)))
 
 ;;; 11_file_browser.el

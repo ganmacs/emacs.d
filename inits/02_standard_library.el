@@ -50,8 +50,6 @@
 (custom-set-variables
  '(show-paren-delay 0.3)
  '(show-paren-when-point-inside-paren t)
- '(show-paren-when-point-in-periphery t)
-)
-
+ '(show-paren-when-point-in-periphery t))
 
 ;;; 02_standard_libray.el ends here
