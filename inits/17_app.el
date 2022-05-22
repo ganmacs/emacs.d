@@ -6,7 +6,7 @@
   :bind ("C-x j" . open-junk-file)
   :custom
   (open-junk-file-find-file-function 'find-file)
-  (open-junk-file-format "~/Documents/Junk/%Y/%m%d-%H%M%S."))
+  (open-junk-file-format "~/src/Junk/%Y/%m%d-%H%M%S."))
 
 (use-package quickrun
   :init

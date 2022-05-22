@@ -15,3 +15,4 @@ network-security.data
 projects
 transient/
 .lsp-session-v1
+.mc-lists.el

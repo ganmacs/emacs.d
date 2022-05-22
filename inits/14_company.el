@@ -3,19 +3,21 @@
 ;;; Code:
 
 (use-package company
-  :bind (("M-/" .  company-complete)
-         ("C-M-i" .  company-complete)
-         :map company-active-map
-         ("M-n" . nil)
-         ("M-p" . nil)
-         ("C-n" . 'company-select-next)
-         ("C-p" . 'company-select-previous)
-         ("C-h" . nil)
-         ("M-d" . 'company-show-doc-buffer)
-         ("<RET>" .  'company-complete-selection)
-         ("<tab>". 'company-complete-selection)
-         ("TAB" . 'company-complete-selection)
-         ("C-m" . 'company-complete-selection))
+  :bind
+  (("M-/" .  company-complete)
+   ("C-M-i" .  company-complete)
+   ("s-S" . lsp-format-buffer))
+  (:map company-active-map
+   ("M-n" . nil)
+   ("M-p" . nil)
+   ("C-n" . company-select-next)
+   ("C-p" . company-select-previous)
+   ("C-h" . nil)
+   ("M-d" . company-show-doc-buffer)
+   ("<RET>" .  company-complete-selection)
+   ("<tab>". company-complete-selection)
+   ("TAB" . company-complete-selection)
+   ("C-m" . company-complete-selection))
   :custom
   (company-selection-wrap-around t)
   (company-minimum-prefix-length 5)
@@ -49,10 +51,11 @@
     (set-face-attribute 'company-tooltip-annotation nil
                         :foreground "red")))
 
-(use-package company-dict
-  :config
-  (setq company-dict-dir (concat user-emacs-directory "etc/ac-dict"))
-  (add-to-list 'company-backends 'company-dict))
+;; (use-package company-dict
+;;   :config
+;;   (setq company-dict-dir (concat user-emacs-directory "etc/ac-dict"))
+;;   (add-to-list ' company-backends 'company-dict))
 
+;; (add-hook 'lsp-managed-mode-hook (lambda () (setq-local company-backends '(company-capf))))
 
 ;;; 14_company.el ends here

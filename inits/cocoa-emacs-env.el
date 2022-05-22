@@ -4,7 +4,7 @@
 
 ;; Looks
 
-(set-frame-parameter nil 'alpha '(90 . 60))
+;; (set-frame-parameter nil 'alpha '(90 . 60))
 (add-to-list 'default-frame-alist '(vertical-scroll-bars . nil))
 (add-to-list 'default-frame-alist '(ns-appearance . dark))
 (add-to-list 'default-frame-alist '(internal-border-width . 0))

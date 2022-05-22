@@ -22,11 +22,12 @@
 
 ;; recentf
 (custom-set-variables
- '(recentf-auto-cleanup 10)
+ ;; this could cause freeze on macos (monterey 12.3.1)
+ ;; '(recentf-auto-cleanup 'never)
  '(recentf-max-menu-items 10)
- '(recentf-max-saved-items 2000)
+ '(recentf-max-saved-items 1000)
  '(recentf-exclude '(".emacs.d/recentf" ".emacs.d/log"))
- '(recentf-auto-save-timer (run-with-idle-timer 30 t 'recentf-save-list))
+ '(recentf-auto-save-timer (run-with-idle-timer 60 t 'recentf-save-list))
  '(recentf-mode t))
 
 ;; save history

@@ -52,9 +52,9 @@
 
 ;; (global-set-key [C-tab] 'chrome-next-tab)
 ;; (global-set-key [C-S-tab] 'chrome-previous-tab)
-(global-set-key (kbd "s-r") 'chrome-reload)
-(global-set-key (kbd "C-M-n") 'chrome-scroll-down)
-(global-set-key (kbd "C-M-p") 'chrome-scroll-up)
+;; (global-set-key (kbd "s-r") 'chrome-reload)
+;; (global-set-key (kbd "C-M-n") 'chrome-scroll-down)
+;; (global-set-key (kbd "C-M-p") 'chrome-scroll-up)
 
 (defun chrome-reload ()
   "Reload tab in chrome."

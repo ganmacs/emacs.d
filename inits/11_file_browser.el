@@ -19,6 +19,11 @@
   (completion-styles '(orderless basic))
   (completion-category-overrides '((file (styles basic partial-completion)))))
 
+(use-package project
+  :straight nil
+  :bind
+  ("s-l" . project-find-file))
+
 (use-package consult
   :demand t                             ;for custom functions
 
@@ -26,8 +31,8 @@
   ("C-;" . consult-buffer)
   ("M-o" . consult-swoop)
   ("M-C-;" . consult-ghq-open)
-  ("M-g M-g" . my-consult-git-grep)
-  ("s-l" . consult-project-buffer)
+  ("M-g M-g" . consult-git-grep-region)
+  ("M-i" . consult-imenu)
   (:map vertico-map
         ("C-v" . vertico-scroll-up)
         ("M-v" . vertico-scroll-down))
@@ -38,11 +43,32 @@
   (vertico-cycle  t)
   (consult-async-split-style nil)
 
+  :init
+  (defun consult-swoop ()
+    (interactive)
+    (consult-line (get-input-symbol t)))
+
+  (defun consult-git-grep-region ()
+    (interactive)
+    (consult-git-grep nil (get-input-symbol nil)))
+
+  (defun consult-ghq-open ()
+    (interactive)
+    (consult-ghq--dired-open
+     (consult--read
+      (or (consult-ghq--list-candidates)
+          (user-error "No ghq repository"))
+      :prompt "ghq: "
+      :sort t
+      :require-match t
+      :category 'file)))
+
   :config
   (consult-customize
    consult-theme
    :preview-key '(:debounce 0.2 any)
    consult-buffer consult-project-buffer consult-git-grep
+   consult-git-grep-region
    consult-ripgrep consult-grep
    consult-bookmark consult-recent-file consult-xref
 
@@ -72,30 +98,11 @@
         (forward-line 1))
       (reverse paths))))
 
-(defun consult-ghq-open ()
-  (interactive)
-  (consult-ghq--dired-open
-   (consult--read
-    (or (consult-ghq--list-candidates)
-        (user-error "No ghq repository"))
-    :prompt "ghq: "
-    :sort t
-    :require-match t
-    :category 'file)))
-
-(defun get-input-symbol ()
+(defun get-input-symbol (at-point)
   (if (use-region-p)
       (let ((val (buffer-substring-no-properties (region-beginning) (region-end))))
         (deactivate-mark)
         val)
-    (thing-at-point 'symbol)))
-
-(defun consult-swoop ()
-  (interactive)
-  (consult-line (get-input-symbol)))
-
-(defun my-consult-git-grep ()
-  (interactive)
-  (consult-git-grep nil (get-input-symbol)))
+    (if at-point (thing-at-point 'symbol) nil)))
 
 ;;; 11_file_browser.el

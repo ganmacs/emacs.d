@@ -8,7 +8,7 @@
 (global-set-key (kbd "C-m") 'newline-and-indent)
 (global-set-key (kbd "C-q") 'one-line-comment)
 (global-set-key (kbd "C-z") 'zap-to-char) ;; Delete chars until designated char appeared
-(global-set-key (kbd "C-x o") '(lambda () (interactive) (other-window -1)))
+(global-set-key (kbd "C-x o") #'(lambda () (interactive) (other-window -1)))
 (global-set-key (kbd "C-x C-h") 'help-command)
 (global-set-key (kbd "C-x C-k") 'kill-all-buffers)
 (global-set-key (kbd "C-x C-n") 'cycle-spacing)
@@ -32,7 +32,7 @@
 (global-set-key (kbd "M-g g") 'goto-line)
 
 (global-set-key (kbd "s-k") 'kill-sexp)
-(global-set-key (kbd "s-h") '(lambda () (interactive) (kill-sexp -1)))
+(global-set-key (kbd "s-h") #'(lambda () (interactive) (kill-sexp -1)))
 (global-set-key (kbd "s-n") 'next-buffer)
 (global-set-key (kbd "s-p") 'previous-buffer)
 (global-set-key (kbd "s-f") 'forward-sexp)
@@ -40,8 +40,6 @@
 (global-set-key (kbd "s-0") 'delete-window)
 (global-set-key (kbd "s-2") 'split-window-below)
 (global-set-key (kbd "s-3") 'split-window-right)
-(global-set-key (kbd "s-S") 'point-to-register)
-(global-set-key (kbd "s-J") 'jump-to-register)
 (global-set-key (kbd "s-i") 'global-whitespace-mode)
 (global-set-key (kbd "s-m") 'end-line-indent)
 (global-set-key (kbd "s-o") 'begin-line-indent)
