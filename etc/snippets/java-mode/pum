@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: public method
+# key: pum
+# --
+public ${1:ReturnType} ${2:MethodName}(${3:args}) {
+    $0
+}

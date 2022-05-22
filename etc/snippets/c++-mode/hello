@@ -1,0 +1,32 @@
+# -*- mode: snippet -*-
+# name: hello
+# key: hello
+# --
+#include <algorithm>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <cstdio>
+#include <cmath>
+#include <queue>
+#include <map>
+#include <set>
+
+using namespace std;
+static const double EPS = 1e-8;
+static const int INF = 1000000;
+
+#define all(vec) (vec).begin(),(vec).end()
+#define ll long long
+#define MP make_pair
+#define REP(i,a,b) for(int i=a;i<b;i++)
+#define rep(i,n) REP(i,0,n)
+#define pii pair<int,int>
+#define pll pair<LL,LL>
+#define pis pair<int,string>
+#define DBG(a,s) rep(_X,s){printf("%d\n",a[_X]);}
+
+int main(){
+  $0
+}

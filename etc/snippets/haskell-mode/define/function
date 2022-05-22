@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: function
+# key: f
+# --
+
+${1:Function} ${2:args} = $0

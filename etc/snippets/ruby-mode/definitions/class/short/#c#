@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# key: c3
+# --
+class ${1:ClassName}${2:hello$$((lambda ()(insert "\n") (next-line nil)))}end

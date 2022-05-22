@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: f
+# key: f
+# --
+for (auto& vi: ${1:V}) {
+$0
+}

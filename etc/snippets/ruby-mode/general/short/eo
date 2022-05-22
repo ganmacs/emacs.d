@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ObjectSpace.each_object(..)
+# key: eo
+# --
+ObjectSpace.each_object(${1:Class}) {|o| $0 }

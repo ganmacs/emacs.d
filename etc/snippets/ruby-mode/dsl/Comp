@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: include Comparable; def <=> ... end
+# key: Comp
+# --
+include Comparable
+
+def <=>(other)
+  t = self.@${1:Strategy1} <=> other.$1
+  return t unless t == 0
+  return @${2:Strategy2} <=> other.$2
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: meta
+# key: #
+# type: snippet
+# --
+#![$0]

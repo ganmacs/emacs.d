@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: psi
+# key: psi
+# --
+public static int$1 ${2:var} = $0;

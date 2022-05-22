@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: singleton_methods(false)
+# key: sm
+# --
+singleton_methods(false)

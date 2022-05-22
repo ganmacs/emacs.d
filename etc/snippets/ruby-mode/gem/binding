@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: binding.pry
+# key: bp
+# --
+require 'pry'
+binding.pry

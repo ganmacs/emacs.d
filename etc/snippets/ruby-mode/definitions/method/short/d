@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: d
+# --
+def ${1:method_name}
+  $0
+end

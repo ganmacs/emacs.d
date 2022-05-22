@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: jQuery selector
+# key: j
+# --
+\$('$0').$1

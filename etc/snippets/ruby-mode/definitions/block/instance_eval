@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: instance_eval {...}
+# key: instance_eval
+# --
+instance_eval do
+  $0
+end

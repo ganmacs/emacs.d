@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: func_short
+# key: f
+# --
+func ${1:name}(${2:args}) {
+	$0
+}

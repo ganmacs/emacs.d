@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: public_methods(false)
+# key: pm
+# --
+public_methods(false)

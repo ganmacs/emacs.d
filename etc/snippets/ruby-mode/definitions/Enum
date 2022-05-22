@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Enum: convert next to Enumerator.
+# key: Enum
+# --
+include Enumerable
+
+def each(&block)
+  loop { yield self.next }
+end

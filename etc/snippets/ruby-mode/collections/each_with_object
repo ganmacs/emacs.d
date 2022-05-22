@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_with_opject
+# key: each_with_object
+# --
+each_with_object(${1:init}) { |${2:e}, ${3:a}| $0 }

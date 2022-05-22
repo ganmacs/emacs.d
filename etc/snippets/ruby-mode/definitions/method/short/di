@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: di
+# --
+def initialize
+  $0
+end

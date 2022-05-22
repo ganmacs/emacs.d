@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: d
+# key: d
+# --
+<source>
+  @type dummy
+  tag ${1:dummy}
+</source>

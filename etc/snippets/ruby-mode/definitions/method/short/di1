@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: di1
+# --
+def initialize(${1:value})
+  @$1 = $1$0
+end

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class_exec {...}
+# key: class_exec
+# --
+class_exec(${1:arg}) do |$1|
+  $0
+end

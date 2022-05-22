@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: f
+# key: f
+# --
+() ->
+  $0

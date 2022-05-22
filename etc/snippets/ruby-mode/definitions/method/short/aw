@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# key: aw
+# --
+attr_writer :

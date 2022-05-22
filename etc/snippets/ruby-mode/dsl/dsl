@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: dsl
+# key: dsl
+# --
+class ${1:ClassName}
+  def self.${2:method_name}(&block)
+    a = A.new
+    a.instance_exec(&block)
+  end
+
+  def ${3:action_name}
+    $0
+  end
+  
+end

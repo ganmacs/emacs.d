@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: reduce(0) {|accumulator, element| ... }
+# key: reduce
+# --
+reduce(${1:0}) do |${2:a}, ${3:e}|
+  $0
+end

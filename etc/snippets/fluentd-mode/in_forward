@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: in_forward
+# key: in_f
+# --
+<source>
+  @type forward
+</source>

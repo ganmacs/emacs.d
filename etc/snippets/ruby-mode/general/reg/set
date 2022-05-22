@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: [:Character Classes:]
+# key: set
+# --
+[:${1:Character Classes}:]

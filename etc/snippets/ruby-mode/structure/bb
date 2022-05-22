@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: {|e| block here ... }
+# key: bb
+# --
+{ |${1:e}| $0 }

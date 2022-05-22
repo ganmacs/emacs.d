@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: return
+# key: re
+# --
+return ${1:return_val};$0

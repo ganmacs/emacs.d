@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: in
+# key: in
+# --
+<source>
+  @type $1
+</source>

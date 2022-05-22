@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: module binding
+# binding: M-c m
+# --
+module ${ModuleName}
+  `yas/selected-text`$0
+end

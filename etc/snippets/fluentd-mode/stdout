@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: st
+# key: st
+# --
+<match>
+  @type stdout
+
+  <buffer>
+    @type memory
+    flush_interval 1s
+  </buffer>
+</match>

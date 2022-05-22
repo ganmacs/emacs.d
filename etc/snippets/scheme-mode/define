@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+#name: define
+# key: d
+# --
+define ($0)

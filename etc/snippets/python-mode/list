@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: list
+# key: l
+# --
+[${1:var} for ${2:var2} in ${3:collection}]$0

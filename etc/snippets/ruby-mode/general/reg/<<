@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (?<=RE2)RE1
+# key: <<
+# --
+(?<=${BEFORE})

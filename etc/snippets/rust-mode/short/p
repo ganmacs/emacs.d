@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: print!
+# key: p
+# type: snippet
+# --
+println!("{:?}", $0);

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: instance_eval
+# key: ie
+# --
+instance_eval

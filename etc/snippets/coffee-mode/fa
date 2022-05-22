@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: fa
+# key: fa
+# --
+(${1:arg}) ->
+  $0

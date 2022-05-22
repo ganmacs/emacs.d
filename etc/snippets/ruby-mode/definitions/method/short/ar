@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# key: ar
+# --
+attr_reader :

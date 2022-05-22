@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: singleton_class
+# key: sc
+# --
+singleton_class

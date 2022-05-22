@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: instance_exec {...}
+# key: instance_exec
+# --
+instance_exec(${1:arg}) do |$1|
+  $0
+end

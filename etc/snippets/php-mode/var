@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: variable
+# key: $
+# --
+\$${1:varName} = ${2:value};

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: jquery
+# key: jq
+# --
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/${1:2.0.0}/jquery.min.js"></script>
+  $0

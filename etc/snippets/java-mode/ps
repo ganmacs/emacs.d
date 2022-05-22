@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: private static
+# key: ps
+# --
+private static $0

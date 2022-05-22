@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: while line = IO.get ...binding
+# binding: M-c g
+# --
+while line = $1gets
+  `yas/selected-text`$0
+end

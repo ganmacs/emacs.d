@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: jQuery selector
+# key: jqu
+# group: jquery
+# --
+\$('$1').$0

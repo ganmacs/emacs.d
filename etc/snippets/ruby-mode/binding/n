@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: namespace do ... end binding
+# binding: M-c n
+# --
+namespace :${1:NAME} do
+  `yas/selected-text`$0
+end

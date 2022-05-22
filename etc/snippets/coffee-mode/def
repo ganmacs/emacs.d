@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: def
+# key: def
+# --
+var ${1:my_function} = function(${2:arg}) {
+    $0
+};

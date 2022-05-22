@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: fun
+# key: fun
+# --
+function ${1:my_function}(${2:args}) {
+    $0
+}

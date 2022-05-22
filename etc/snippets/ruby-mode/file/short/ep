@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: File.expand_path("my path")
+# key: ep
+# --
+File.expand_path("${1:path}")

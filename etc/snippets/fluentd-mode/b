@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: b
+# key: b
+# --
+<buffer>
+  @type ${1:memory}
+</buffer>

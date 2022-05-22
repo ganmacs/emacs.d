@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: N.times do ... end binding
+# binding: M-c t
+# --
+$1.times { `(replace-regexp-in-string "^\n" "" (replace-regexp-in-string "\n$" "" yas/selected-text))`$0 }

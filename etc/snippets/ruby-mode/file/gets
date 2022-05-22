@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: while line = IO.get ...
+# key: gets
+# --
+while line = $1gets
+  $0
+end

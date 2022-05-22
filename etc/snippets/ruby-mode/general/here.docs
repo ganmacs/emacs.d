@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Here.Docs
+# key: here
+# --
+<<-Here_Is_A_Very_Long_Docs
+$0
+Here_Is_A_Very_Long_Docs

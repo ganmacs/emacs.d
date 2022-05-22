@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#name : for (x <- xs) { }
+# key: for
+# --
+for (${1:x} <- ${2:xs}) {
+  $0
+}

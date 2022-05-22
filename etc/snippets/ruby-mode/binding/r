@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: require '..'
+# binding: M-c r
+# --
+require '`yas/selected-text`'

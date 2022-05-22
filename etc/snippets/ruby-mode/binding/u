@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: until ... end binding
+# binding: M-c u
+# --
+until ${condition}
+  `yas/selected-text`$0
+end

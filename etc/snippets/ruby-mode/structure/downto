@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: downto
+# key: downto
+# --
+downto(${n}) do |${i}|
+  $0
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: ds
+# --
+def self.${1:class_method}
+  $0
+end

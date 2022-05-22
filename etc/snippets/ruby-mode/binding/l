@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ->(x) { block... } binding
+# binding: M-c l
+# --
+->${1:(${2:x})} { `(replace-regexp-in-string "^\n" "" (replace-regexp-in-string "\n$" "" yas/selected-text))`$0 }

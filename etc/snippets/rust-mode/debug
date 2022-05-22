@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: #[derive(Debug)]
+# key: debug
+# type: snippet
+# --
+#[derive(Debug)]

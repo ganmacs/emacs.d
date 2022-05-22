@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name:\p{han}
+# key: p
+# --
+puts ${0:coding}

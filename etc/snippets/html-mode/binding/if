@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <% if ... -%> binding
+# binding: M-c i
+# --
+`(indent-for-tab-command)`<% if ${1:condition} -%>
+  `(replace-regexp-in-string "^\n" "" (replace-regexp-in-string "\n$" "" yas/selected-text))`$0
+<% end -%>

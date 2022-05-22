@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: debug p
+# key: pp
+# --
+puts nil, '<============================================================ OUTPUT START HERE'
+p $0
+puts '<============================================================ OUTPUT CLOSE HERE', nil

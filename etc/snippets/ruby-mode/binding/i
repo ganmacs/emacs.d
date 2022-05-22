@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: if ... else ... end binding
+# binding: M-c i
+# --
+if ${1:condition}
+  `yas/selected-text`$2
+else
+  $3
+end

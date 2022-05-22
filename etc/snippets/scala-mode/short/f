@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : functional literal
+# key: f
+# --
+${1:args} => $0

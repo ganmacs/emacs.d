@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ->(x) { block... }
+# key: ll
+# --
+-> ${1:x} { $0 }

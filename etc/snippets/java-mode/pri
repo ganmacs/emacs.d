@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: private method
+# key: pri
+# --
+private ${1:ReturnType} ${2:MethodName}(${3:args}) {
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# name: for
+# contributor: David Miller <david@deadpansincerity.com>
+# --
+for(var i = ${1:0}; i < ${2:something}.${3:length}; i++) {
+  $0
+}

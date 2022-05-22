@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: <% ruby code %> binding
+# binding: M-c r
+# --
+`(indent-for-tab-command)`<% `(replace-regexp-in-string "^[ \t]+" "" (replace-regexp-in-string "^\n" "" (replace-regexp-in-string "\n$" "" yas/selected-text)))`$0 %>

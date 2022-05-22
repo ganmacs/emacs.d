@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: jQuery id selector
+# key: jqi
+# group: jquery
+# --
+\$('#${1:id}').$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fun_short
+# key: f
+# --
+fun ${1:args} -> $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fi
+# key: fi
+# --
+<filter>
+  @type $1
+</filter>

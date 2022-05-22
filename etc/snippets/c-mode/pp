@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pp
+# key: pp
+# --
+puts("\n===================================== start print");
+printf("%d\n", $0);
+puts("===================================== finish print\n");

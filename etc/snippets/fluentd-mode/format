@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fo
+# key: fo
+# --
+<format>
+  @type $1
+</format>

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: anonymous function
+# key: a
+# type: snippet
+# --
+|$1| $0

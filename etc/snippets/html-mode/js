@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <script type="text/javascript">...</script>
+# key: js
+# --
+<script type="text/javascript">
+  $0
+</script>

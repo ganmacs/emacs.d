@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: out_forward
+# key: out_f
+# --
+<match>
+  @type forward
+</match>

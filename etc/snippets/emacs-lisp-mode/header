@@ -1,0 +1,11 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: header
+# key: header
+# --
+;;; `(concat (file-name-base) ".el")` --- ${1:mode configuration}
+;;; Commentary:
+;;; Code:
+
+$0
+
+;;; `(concat (file-name-base) ".el")` ends here

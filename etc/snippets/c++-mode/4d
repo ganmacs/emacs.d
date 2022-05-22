@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: 4d
+# key: 4d
+# --
+int di[4] = {0, 0, 1, -1};
+int dj[4] = {1, -1, 0, 0};

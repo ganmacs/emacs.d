@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: out
+# key: out
+# --
+<match>
+  @type $1
+</match>

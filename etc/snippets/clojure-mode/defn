@@ -1,0 +1,4 @@
+#name: defn
+# --
+defn ${1:name} [${2:arg-list}]
+  $0

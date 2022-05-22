@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: add comment
+# key: com
+# --
+=begin
+$0
+=end

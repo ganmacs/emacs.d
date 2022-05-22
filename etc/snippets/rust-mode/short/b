@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: block
+# key: b
+# type: snippet
+# --
+{
+  $0
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: for
+# key: for
+# type: snippet
+# --
+for ${1:item} in ${2:items} {
+   $0
+}

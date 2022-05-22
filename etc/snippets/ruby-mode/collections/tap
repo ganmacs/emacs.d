@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tap
+# key: tap
+# --
+tap { |${e}| $0 }

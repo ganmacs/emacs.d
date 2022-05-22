@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#name : class T { .. }
+# key: c
+# --
+class ${1:name} {
+  $0
+}

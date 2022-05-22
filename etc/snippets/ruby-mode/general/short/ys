@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: yield self if block_given?
+# key: ys
+# --
+yield self if block_given?
+self

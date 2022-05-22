@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: jQuery className selector
+# key: jqc
+# group: jquery
+# --
+\$('.${1:className}').$0

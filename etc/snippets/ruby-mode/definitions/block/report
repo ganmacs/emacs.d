@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: benchmark report
+# key: report
+# --
+report("${1:report name}") do
+  $0
+end

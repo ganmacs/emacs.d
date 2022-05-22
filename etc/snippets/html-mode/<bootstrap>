@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: <bootstrap>
+# key: boot
+# --
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>$1</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-responsive.min.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1>$2</h1>
+    $3
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name : if state
+# key: if
+# --
+if (${1:condition}) {
+    $0
+}

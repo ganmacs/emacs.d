@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# key: new
+# --
+new($1) { |${2:obj}| $0 }

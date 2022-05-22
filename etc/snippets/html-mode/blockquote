@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <blockquote>...</blockquote>
+# key: bb
+# --
+<blockquote>
+  $0
+</blockquote>

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# key: tu
+# --
+require "test/unit"
+
+require "${1:tested lib here}"
+
+class Test${1:$(replace-regexp-in-string "_" "" (capitalize text))} < Test::Unit::TestCase
+  def test_${3:case_name}
+    $0
+  end
+end

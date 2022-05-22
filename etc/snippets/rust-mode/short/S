@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: &'static str
+# key: S
+# type: snippet
+# --
+&'static str

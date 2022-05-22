@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: open("path", "r") do |f| binding
+# binding: M-c f
+# --
+open("${1:path/to/file}", "${2:r}") do |${3:f}|
+  `yas/selected-text`$0
+end

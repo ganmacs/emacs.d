@@ -1,0 +1,5 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: c
+# key: c
+# --
+console.log(${0:'debug'});

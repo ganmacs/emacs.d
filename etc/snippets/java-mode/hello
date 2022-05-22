@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: hellow
+# key: hp
+# --
+import java.util.*;
+
+public class ${1:`(file-name-sans-extension (buffer-name))`} {
+    public static int INF = 10000000;
+    public static void main(String[] args) {
+      Scanner sr = new Scanner(System.in);
+      $0
+    }
+
+  private static int[] ni(Scanner sr, int n) {
+		int[] a = new int[n];
+		for(int i = 0;i < n;i++)a[i] = sr.nextInt();
+		return a;
+	}
+  private static String[] ns(Scanner sr, int n) {
+		String[] a = new String[n];
+		for(int i = 0;i < n;i++)a[i] = sr.next();
+		return a;
+	}
+  private static int[] nf(int n, int k) {
+    int[] a = new int[n];
+		for(int i = 0;i < n;i++)a[i] = k;
+		return a;
+  }
+}

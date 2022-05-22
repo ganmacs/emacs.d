@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: cs
+# --
+class << ${1:self}
+  $0
+end
