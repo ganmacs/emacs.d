@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: type
-# key: t
-# --
-
-${1:Function} :: ${2:type} -> $0

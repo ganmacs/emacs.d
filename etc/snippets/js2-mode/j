@@ -1,5 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: j
-# key: j
-# --
-$('$1').$0

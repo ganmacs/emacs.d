@@ -1,4 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: for
-# --
-($0 for ${1:num} in ${2:list})

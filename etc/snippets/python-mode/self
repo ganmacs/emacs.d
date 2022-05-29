@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: self
-# key: s
-# --
-self.${1:var}

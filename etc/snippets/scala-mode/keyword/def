@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : def name,arg =
-# key: def
-# --
-def ${1:name}$2 = $0

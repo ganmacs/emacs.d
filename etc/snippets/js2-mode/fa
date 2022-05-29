@@ -1,7 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: fa
-# key: fa
-# --
-function(${1:arg}) {
-    $0
-}

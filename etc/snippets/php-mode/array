@@ -1,5 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: array
-# key: a
-# --
-array(${1:arg})

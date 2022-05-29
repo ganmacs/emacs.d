@@ -1,8 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: jQuery funtion
-# key: jf
-# group: jquery
-# --
-\$(function(){
-    $0
-});

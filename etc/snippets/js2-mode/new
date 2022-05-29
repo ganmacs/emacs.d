@@ -1,5 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: constructer
-# key: new
-# --
-new ${1:ClassName}();

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-#name : match { 0 }
-# key: match
-# --
-match {
-      $0
-}

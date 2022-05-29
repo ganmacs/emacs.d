@@ -1,3 +1,0 @@
-#name: d
-# --
-(def ${1:name} ${2:value})

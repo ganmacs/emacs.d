@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : faltMap
-# key: flatMap
-# --
-flatMap($(1:args) => $0)

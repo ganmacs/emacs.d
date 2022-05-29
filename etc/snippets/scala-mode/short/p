@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# println
-# key: p
-# --
-println($0)
