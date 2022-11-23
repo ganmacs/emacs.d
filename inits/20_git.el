@@ -12,7 +12,7 @@
 
 (defun open-github-commit ()
   (interactive)
-  (let* ((cmd1 "git blame -l -L %s,+1  %s | cut -d ' ' -f 1")
+  (let* ((cmd1 "git blame -l -L %s,+1  %s | cut -d \" \" -f 1 | tr -d '^'")
          (cmd2 "hub browse -- commit/%s")
          (zero "0000000000000000000000000000000000000000")
          (commit-id (shell-command-to-string

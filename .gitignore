@@ -7,6 +7,7 @@ url/*
 /.hl-save
 /ensime
 *.elc
+.cache/
 
 straight/repos
 straight/build
@@ -16,3 +17,4 @@ projects
 transient/
 .lsp-session-v1
 .mc-lists.el
+.dap-breakpoints
