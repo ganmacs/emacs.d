@@ -6,6 +6,7 @@
   :hook
   ((go-mode) . lsp-deferred)
   ((ruby-mode) . lsp-deferred)
+  ((rust-mode) . lsp-deferred)
 
   :bind
   ("s-S" . lsp-format-buffer)

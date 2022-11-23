@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: fn { … }
+# name: short_for
 # key: f
 # type: snippet
 # --
-fn ${1:name}(${2:args}) {
+for ${1:item} in ${2:items} {
    $0
 }
